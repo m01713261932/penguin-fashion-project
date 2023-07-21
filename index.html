@@ -7,32 +7,47 @@
     <title>Penguin Fashion Project</title>
     <!-- tailwind cdn link  -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 
     <style>
-        body{
-            max-width: 1440px;
+        body {
+            margin: 0 auto;
+        }
+
+        .roboto {
+
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .bebas {
+            font-family: 'Bebas Neue', sans-serif;
         }
     </style>
 </head>
-<header>
-    <nav class="flex justify-between items-center max-w-[72.5rem] my-0 mx-auto pt-10 pb-4">
-        <div class="">
-            <div class="w-72">
-                <img src="./icons/logo.png" alt="">
-            </div>
-        </div>
-        <div class="">
-            <ul class="flex space-x-6">
-                <li>Home</li>
-                <li>Product</li>
-                <li>About us</li>
-                <li>Contact us</li>
-            </ul>
-        </div>
-    </nav>
-</header>
 
 <body>
+    <header>
+        <nav class="flex justify-between items-center max-w-[72.5rem] my-0 mx-auto pt-10 pb-4 roboto text-base fw-medium">
+            <div class="">
+                <div class="w-72">
+                    <img src="./icons/logo.png" alt="">
+                </div>
+            </div>
+            <div class="">
+                <ul class="flex space-x-6">
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>About us</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
 
 </body>
 
